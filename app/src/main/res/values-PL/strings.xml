@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Historia. Szkoła podstawowa</string>
+    <string name="title_1">Historia</string>
+    <string name="title_2">SZKOŁA PODSTAWOWA</string>
+    <string name="knowledge">Baza wiedzy</string>
+    <string name="test">Test</string>
+    <string name="about">O aplikacji</string>
+</resources>

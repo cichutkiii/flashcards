@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">History. Primary School</string>
+    <string name="title_1">History</string>
+    <string name="title_2">Primary School</string>
+    <string name="title_activity_main">History</string>
+    <string name="knowledge">Knowledge</string>
+    <string name="test">Test</string>
+    <string name="about">About</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_list">ListActivity</string>
 </resources>
