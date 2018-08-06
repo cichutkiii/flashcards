@@ -41,6 +41,24 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="pl.preclaw.fiche.UI.MainActivity" />
         </activity>
+        <activity
+            android:name=".UI.TestActivity"
+            android:label="@string/title_activity_test"
+            android:parentActivityName=".UI.ListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pl.preclaw.fiche.UI.ListActivity" />
+        </activity>
+        <activity
+            android:name=".UI.KnowledgeActivity"
+            android:label="@string/title_activity_knowledge"
+            android:parentActivityName=".UI.ListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pl.preclaw.fiche.UI.ListActivity" />
+        </activity>
     </application>
 
 </manifest>

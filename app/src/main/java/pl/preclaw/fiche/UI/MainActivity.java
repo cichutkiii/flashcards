@@ -37,11 +37,11 @@ public class MainActivity extends AppCompatActivity {
     public void ActionActivity(String whereToGo){
         if(whereToGo.contains("about")){
             Intent intent = new Intent(this, AboutActivity.class);
-            intent.putExtra(StaticData.ABOUT,"about");
+            intent.putExtra(StaticData.WHERE_TO_GO,"about");
             startActivity(intent);
         }else{
             Intent intent = new Intent(this, ListActivity.class);
-            intent.putExtra(StaticData.LEARN_DATA,whereToGo);
+            intent.putExtra(StaticData.WHERE_TO_GO,whereToGo);
             startActivity(intent);
         }
     }

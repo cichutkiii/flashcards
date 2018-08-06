@@ -1,7 +1,7 @@
 package data;
 
 public final class StaticData {
-    public static String ABOUT = "about";
-    public static String LEARN_DATA= "learn";
-
+    public static String WHERE_TO_GO = "whereToGo";
+    public static String LINK = "link";
+    public static String NAME= "name";
 }
